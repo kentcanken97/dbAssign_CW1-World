@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    Search City
     <style>
         .pagination {
             justify-content: center;

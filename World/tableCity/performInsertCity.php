@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    Insert City
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 
@@ -9,6 +10,7 @@
     <div class="container">
         <?php
         include 'config.php';
+        include '../mynavbar.php';
 
         insertData($conn);
         $conn->close();
@@ -25,7 +27,7 @@
                     $conn->query($sql);
                     echo '<h1 class="display-4">Successful</h1>';
                 } else {
-                    echo "Country code not found";
+                    echo "<h1 class='display-4'>Country code not found</h1>";
                 }
             }
         }
