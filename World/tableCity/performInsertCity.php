@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    Insert City
+    <title>Insert City</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 
