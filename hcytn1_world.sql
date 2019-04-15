@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 14, 2019 at 07:33 PM
+-- Generation Time: Apr 15, 2019 at 11:55 PM
 -- Server version: 5.6.43
 -- PHP Version: 7.2.7
 
@@ -4402,7 +4402,7 @@ INSERT INTO `country` (`Code`, `Name`, `Continent`, `Region`, `SurfaceArea`, `In
 CREATE TABLE `countrylanguage` (
   `CountryCode` char(3) NOT NULL DEFAULT '',
   `Language` varchar(30) NOT NULL DEFAULT '',
-  `IsOfficial` enum('T','F','','') NOT NULL DEFAULT 'F',
+  `IsOfficial` enum('T','F') NOT NULL DEFAULT 'F',
   `Percentage` float(4,1) NOT NULL DEFAULT '0.0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
