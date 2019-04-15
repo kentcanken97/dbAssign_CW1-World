@@ -160,11 +160,12 @@ mysqli_close($conn);
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Language Table</title>
 		<link rel="stylesheet" type="text/css" href="tab.css">
 		<link rel="stylesheet" type="text/css" href="language.css">
 		<script type="text/javascript" src="tab.js"></script>
 		<script type="text/javascript" src="language.js"></script>
-
+		
 	</head>
 
 	<body>
